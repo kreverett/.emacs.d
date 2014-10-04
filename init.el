@@ -8,3 +8,6 @@
 ; ido-mode enable
 (require 'ido)
 (ido-mode t)
+
+; Disable initial splashscreen
+(setq inhibit-splash-screen t)
